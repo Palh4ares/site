@@ -3,16 +3,17 @@ import { useState } from "react";
 export default function Equipe({ onMemberClick }) {
     const members = [
         {
-            name: "Eraldo Palhares",
-            role: "CEO",
-            image: "/public/Eraldo.jpg",
-            text: "Eraldo Palhares - CEO & Desenvolvedor\n\nFundador da PotiguarDev, desenvolvedor full-stack e apaixonado por tecnologia.",
-            social: {
-                linkedin: "https://www.linkedin.com/",
-                whatsapp: "https://wa.me/5584991696213",
-                instagram: "https://instagram.com/",
-            },
-        },
+    name: "Eraldo Palhares",
+    role: "CEO",
+    image: "/Eraldo.jpg", // Caminho correto para imagens na pasta /public
+    text: "Eraldo Palhares - CEO & Desenvolvedor\n\nFundador da PotiguarDev, desenvolvedor full-stack e apaixonado por tecnologia.",
+    social: {
+        linkedin: "https://www.linkedin.com/",
+        whatsapp: "https://wa.me/5584991696213",
+        instagram: "https://instagram.com/",
+    },
+}
+
         {
             name: "Lourival Barbosa",
             role: "Co-Fundador",
