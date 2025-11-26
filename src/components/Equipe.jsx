@@ -12,7 +12,7 @@ export default function Equipe({ onMemberClick }) {
         whatsapp: "https://wa.me/5584991696213",
         instagram: "https://instagram.com/",
     },
-}
+},
 
         {
             name: "Lourival Barbosa",
