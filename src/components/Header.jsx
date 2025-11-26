@@ -18,7 +18,7 @@ export default function Header() {
 
         {/* LOGO */}
         <a href="#top" className="flex items-center gap-2">
-          <img src="/src/public/potiguardev.png" alt="PotiguarDev" className="h-10" />
+          <img src="/public/potiguardev.png" alt="PotiguarDev" className="h-10" />
           <span className="text-2xl font-bold text-[#003366]"></span>
         </a>
 
