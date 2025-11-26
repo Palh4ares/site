@@ -10,11 +10,11 @@ export default function Eventos({ onImageClick }) {
           <div
             className="w-full h-40 rounded-xl mb-4 overflow-hidden cursor-pointer"
             onClick={() => onImageClick({
-              image: "/src/public/ConexaoODS.jpg",
+              image: "/public/ConexaoODS.jpg",
               text: "Incubadas pela INEAGRO Cabugi (UFERSA Angicos), brilharam no Conexão ODS 2025."
             })}
           >
-            <img src="/src/public/ConexaoODS.jpg" className="w-full h-full object-cover" />
+            <img src="/public/ConexaoODS.jpg" className="w-full h-full object-cover" />
           </div>
 
           <h3 className="text-xl font-semibold">Conexão ODS - Natal/RN</h3>
@@ -29,11 +29,11 @@ export default function Eventos({ onImageClick }) {
           <div
             className="w-full h-40 rounded-xl mb-4 overflow-hidden cursor-pointer"
             onClick={() => onImageClick({
-              image: "/src/public/GoRN.jpg",
+              image: "/public/GoRN.jpg",
               text: "Levamos a PotiguarDev ao GO!RN e garantimos o 3º lugar no Desafio EliAgro!"
             })}
           >
-            <img src="/src/public/GoRN.jpg" className="w-full h-full object-cover" />
+            <img src="/public/GoRN.jpg" className="w-full h-full object-cover" />
           </div>
 
           <h3 className="text-xl font-semibold">GoRN - Natal/RN</h3>
@@ -48,11 +48,11 @@ export default function Eventos({ onImageClick }) {
           <div
             className="w-full h-40 rounded-xl mb-4 overflow-hidden cursor-pointer"
             onClick={() => onImageClick({
-              image: "/src/public/CPWAracaju.jpg",
+              image: "/public/CPWAracaju.jpg",
               text: "Vivemos uma experiência incrível na #CPWeekendAracaju!"
             })}
           >
-            <img src="/src/public/CPWAracaju.jpg" className="w-full h-full object-cover" />
+            <img src="/public/CPWAracaju.jpg" className="w-full h-full object-cover" />
           </div>
 
           <h3 className="text-xl font-semibold">#CPWeekendAracaju</h3>
