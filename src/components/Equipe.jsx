@@ -13,7 +13,6 @@ export default function Equipe({ onMemberClick }) {
                 instagram: "https://instagram.com/",
             },
         },
-
         {
             name: "Lourival Barbosa",
             role: "Co-Fundador",
