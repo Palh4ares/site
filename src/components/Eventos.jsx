@@ -9,12 +9,14 @@ export default function Eventos({ onImageClick }) {
         <div className="bg-white p-6 rounded-2xl shadow-lg border border-[#0066CC]/20">
           <div
             className="w-full h-40 rounded-xl mb-4 overflow-hidden cursor-pointer"
-            onClick={() => onImageClick({
-              image: "/public/ConexaoODS.jpg",
-              text: "Incubadas pela INEAGRO Cabugi (UFERSA Angicos), brilharam no Conexão ODS 2025."
-            })}
+            onClick={() =>
+              onImageClick({
+                image: "/ConexaoODS.jpg",
+                text: "Incubadas pela INEAGRO Cabugi (UFERSA Angicos), brilharam no Conexão ODS 2025."
+              })
+            }
           >
-            <img src="/public/ConexaoODS.jpg" className="w-full h-full object-cover" />
+            <img src="/ConexaoODS.jpg" className="w-full h-full object-cover" />
           </div>
 
           <h3 className="text-xl font-semibold">Conexão ODS - Natal/RN</h3>
@@ -28,12 +30,14 @@ export default function Eventos({ onImageClick }) {
         <div className="bg-white p-6 rounded-2xl shadow-lg border border-[#0066CC]/20">
           <div
             className="w-full h-40 rounded-xl mb-4 overflow-hidden cursor-pointer"
-            onClick={() => onImageClick({
-              image: "/public/GoRN.jpg",
-              text: "Levamos a PotiguarDev ao GO!RN e garantimos o 3º lugar no Desafio EliAgro!"
-            })}
+            onClick={() =>
+              onImageClick({
+                image: "/GoRN.jpg",
+                text: "Levamos a PotiguarDev ao GO!RN e garantimos o 3º lugar no Desafio EliAgro!"
+              })
+            }
           >
-            <img src="/public/GoRN.jpg" className="w-full h-full object-cover" />
+            <img src="/GoRN.jpg" className="w-full h-full object-cover" />
           </div>
 
           <h3 className="text-xl font-semibold">GoRN - Natal/RN</h3>
@@ -47,12 +51,14 @@ export default function Eventos({ onImageClick }) {
         <div className="bg-white p-6 rounded-2xl shadow-lg border border-[#0066CC]/20">
           <div
             className="w-full h-40 rounded-xl mb-4 overflow-hidden cursor-pointer"
-            onClick={() => onImageClick({
-              image: "/public/CPWAracaju.jpg",
-              text: "Vivemos uma experiência incrível na #CPWeekendAracaju!"
-            })}
+            onClick={() =>
+              onImageClick({
+                image: "/CPWAracaju.jpg",
+                text: "Vivemos uma experiência incrível na #CPWeekendAracaju!"
+              })
+            }
           >
-            <img src="/public/CPWAracaju.jpg" className="w-full h-full object-cover" />
+            <img src="/CPWAracaju.jpg" className="w-full h-full object-cover" />
           </div>
 
           <h3 className="text-xl font-semibold">#CPWeekendAracaju</h3>
@@ -61,7 +67,6 @@ export default function Eventos({ onImageClick }) {
           </p>
           <p className="text-[#003366] mt-2 text-sm italic">xx/xx/2025</p>
         </div>
-        
 
       </div>
     </section>

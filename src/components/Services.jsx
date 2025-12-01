@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 
 export default function Services() {
   const servicos = [
@@ -9,6 +9,7 @@ export default function Services() {
     {
       title: "Sistemas sob Medida",
       desc: "Desenvolvimento completo para sua empresa.",
+      color: "#0066CC",
     },
     {
       title: "Aplicativos",
@@ -43,7 +44,7 @@ export default function Services() {
 
             // 🔥 Novo hover — apenas um aumento suave
             whileHover={{
-              scale: 1.06,
+              scale: 1.09,
               transition: { duration: 0.25 },
             }}
           >

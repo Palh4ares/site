@@ -35,7 +35,7 @@ export default function App() {
           >
             <img
               src={popupData.image}
-              className="max-w-[450px] max-h-[450px] w-full h-auto rounded-lg object-contain mx-auto"
+              className="max-w-[450px] max-h-[450px] w-full h-full rounded-xl object-cover mx-auto"
             />
 
             {/* Texto comum */}
