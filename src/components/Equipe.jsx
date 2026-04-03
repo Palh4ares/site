@@ -6,7 +6,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "Eraldo Palhares",
             role: "CEO",
-            image: "/public/Eraldo.jpg",
+            image: "/Eraldo.jpg",
             text: "Eraldo Palhares - CEO & Desenvolvedor\n\nFundador da PotiguarDev, desenvolvedor full-stack e apaixonado por tecnologia.",
             social: {
                 linkedin: "https://www.linkedin.com/",
@@ -17,7 +17,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "Lourival Barbosa",
             role: "CO-FUNDUNDADOR",
-            image: "/public/Lourival.jpg",
+            image: "/Lourival.jpg",
             text: "Lourival Barbosa - Co-Fundador & Desenvolvedor\n\nEspecialista em back-end, integra soluções modernas e eficientes.",
             social: {
                 linkedin: "https://www.linkedin.com/",
@@ -28,7 +28,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "Wilton Araújo",
             role: "UX/UI DESIGNER",
-            image: "/public/Wilton.jpg",
+            image: "/Wilton.jpg",
             text: "Wilton Araujo - UX/UI Designer\n\nResponsável por criar interfaces intuitivas e experiências incríveis.",
             social: {
                 linkedin: "https://www.linkedin.com/",
@@ -39,7 +39,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "Juliany Fonseca",
             role: "GRT DE MARKETING",
-            image: "/public/juliany.jpg",
+            image: "/juliany.jpg",
             text: "Juliany Fonseca — Gerente de Marketing\n\nResponsável por liderar estratégias de comunicação, branding e criação de campanhas.",
             social: {
                 linkedin: "#",
@@ -50,7 +50,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "Leticia",
             role: "MARKETING",
-            image: "/public/Leticia.jpg",
+            image: "/Leticia.jpg",
             text: "Leticia — Marketing\n\nCriação de conteúdos, gestão das redes sociais e apoio às campanhas de marketing.",
             social: {
                 linkedin: "#",
@@ -61,7 +61,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "Rafael Cavalcante",
             role: "GERENTE DE PROJETO",
-            image: "/public/Rafael.jpg",
+            image: "/Rafael.jpg",
             text: "Rafael Cavalcante — Gerente de Projeto\n\nCoordena equipes, organiza processos e garante entregas de alta qualidade.",
             social: {
                 linkedin: "#",
@@ -72,7 +72,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "Gabriel Rocha",
             role: "DEV FRONT-END",
-            image: "/public/perfil.jpg",
+            image: "/perfil.jpg",
             text: "Gabriel Rocha — Desenvolvedor Front-End\n\nCriação de interfaces modernas e responsivas, experiência fluida.",
             social: {
                 linkedin: "#",
@@ -83,7 +83,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "Wesley Santos",
             role: "DEV BACK-END",
-            image: "/public/Wesley.jpg",
+            image: "/Wesley.jpg",
             text: "Wesley Santos — Desenvolvedor Back-End\n\nAPIs seguras, alto desempenho e integrações eficientes.",
             social: {
                 linkedin: "#",
@@ -94,7 +94,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "Marcos Junior",
             role: "DEV FULL-STACK",
-            image: "/public/Marco.png",
+            image: "/Marco.png",
             text: "Marcos Junior — Desenvolvedor Full-Stack\n\nAtua tanto no front quanto no back-end.",
             social: {
                 linkedin: "#",
@@ -105,7 +105,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "Denilson Barreto",
             role: "DEV BACK-END",
-            image: "/public/Denilson.jpg",
+            image: "/Denilson.jpg",
             text: "Denilson Barreto — Desenvolvedor Back-End\n\nAPIs escaláveis e arquitetura robusta.",
             social: {
                 linkedin: "#",
@@ -127,7 +127,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "João Victor",
             role: "GRTE DE RH",
-            image: "/public/Joao.jpg",
+            image: "/Joao.jpg",
             text: "João Victor — Gerente de RH\n\nGestão de talentos e clima organizacional.",
             social: {
                 linkedin: "#",
@@ -138,7 +138,7 @@ export default function Equipe({ onMemberClick }) {
         {
             name: "Carlos Alberto",
             role: "ANALISTA DE REQUISITOS",
-            image: "/public/Carlos.jpg",
+            image: "/Carlos.jpg",
             text: "Carlos Alberto — Analista de Requisitos\n\nTransforma necessidades em soluções claras.",
             social: {
                 linkedin: "#",
