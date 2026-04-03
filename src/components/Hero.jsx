@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const imagens = [
-  "/hero1.jpg",
-  "/hero2.jpg",
-  "/hero3.jpg",
+  "/public/hero1.jpg",
+  "/public/hero2.jpg",
+  "/public/hero3.jpg",
 ];
 
 export default function Hero() {
