@@ -4,7 +4,7 @@ export default function Contato() {
     <section
     
       id="contato"
-      className="relative py-20 px-6 bg-[#003366] text-white rounded-tl-[800px] shadow-2xl overflow-hidden"
+      className="relative py-5 px-6 bg-[#003366] text-white rounded-tl-[300px] rounded-tr-[300px]  shadow-2xl overflow-hidden"
     >
       
 
@@ -33,7 +33,7 @@ export default function Contato() {
           >
             <img src="/whatsapp.png" className="w-10 mx-auto mb-3" />
             <h3 className="text-lg font-semibold">WhatsApp</h3>
-            <p className="text-blue-200 text-sm">(79) 00000-0000</p>
+            <p className="text-blue-200 text-sm">(84) 9145-6441</p>
           </a>
 
           <a
@@ -56,7 +56,7 @@ export default function Contato() {
           </a>
         </div>
       </div>
-
+    
       <div className="w-full flex justify-end pr-6 mt-10 opacity-80">
         <p className="text-sm">Desenvolvido por PotiguarDev • 2025</p>
       </div>
